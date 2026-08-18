@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: wil-playground
-          image: wil42/playground:v1
+          image: wil42/playground:v2
           ports:
             - containerPort: 8888
 
@@ -33,10 +33,9 @@ metadata:
   namespace: dev
 
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: wil-playground
   ports:
     - port: 8888
       targetPort: 8888
-      nodePort: 30042
