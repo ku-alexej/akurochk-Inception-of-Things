@@ -1,4 +1,4 @@
-# akurochk-Inception-of-Things
-Repository for application manifest for Inception-of-Things 42 school project
+# Readme
+Repository for application manifest for Inception-of-Things 42 school project.  
 
-test line
+The project - [link](https://github.com/ku-alexej/IoT)
